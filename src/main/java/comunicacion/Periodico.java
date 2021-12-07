@@ -15,7 +15,7 @@ public class Periodico extends Escrito{
 	@Override
 	public int palabrasTotales(int palabrasPagina) {
 		// TODO Auto-generated method stub
-		return getPaginas()*10;
+		return getPaginas()*10*palabrasPagina;
 	}
 
 	@Override
